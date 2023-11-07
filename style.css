@@ -1,0 +1,42 @@
+#cardContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5rem;
+}
+
+.cardStyle{
+    width: 15rem;
+    height: 25rem;
+
+}
+
+.titleStyle {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
+
+.BranchStyle {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.locationStyle {
+    font-family: monospace;
+    text-align: center;
+    color: red;
+    cursor: pointer;
+}
+
+.mapStyle {
+    width: 29rem;
+    height: 20rem;
+}
+
+.infoStyle {
+    font-family: monospace;
+    color: gray;
+}
